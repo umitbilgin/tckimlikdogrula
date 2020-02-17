@@ -1,4 +1,4 @@
-# tckimlikdogrula
+# PHP ile TC Kimlik Numarası Doğrulama
 PHP TC Kimlik Numarası Doğrulama Kütüphanesi
 
 Kurulum
