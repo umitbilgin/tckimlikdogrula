@@ -9,7 +9,7 @@
             "email": "info@umitbilgin.com.tr"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"umitbilgin\\tckimlikdogrula\\": "src/"}
     },
