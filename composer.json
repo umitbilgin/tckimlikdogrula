@@ -1,7 +1,7 @@
 {
     "name": "umitbilgin/tckimlikdogrula",
     "description": "PHP ile TC Kimlik Numarasi Dogrulama",
-    "type": "library",
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
