@@ -1,0 +1,14 @@
+{
+    "name": "umitbilgin/tckimlikdogrula",
+    "description": "PHP ile TC Kimlik Numaras\u0000 Do\u0000rulama",
+    "type": "librariy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mit Bilgin",
+            "email": "info@umitbilgin.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

@@ -1,4 +1,5 @@
 <?php
+
 class TCKimlikDogrula
 {
 
@@ -70,14 +71,4 @@ class TCKimlikDogrula
 
         return $check;
     }
-}
-
-$TCKimlikDogrula = new TCKimlikDogrula;
-
-$dogrula = $TCKimlikDogrula->check("1111111111","ÜMİT","BİLGİN","2000");
-
-if($dogrula) {
-    echo "TC Kimlik Doğru";
-} else {
-    echo "TC Kimlik Yanlış";
 }
