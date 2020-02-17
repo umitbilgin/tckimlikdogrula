@@ -1,23 +1,23 @@
 <?php
 
-namespace umitbilgin\TCKimlikDogrula;
+namespace TCKimlikDogrula;
 
 class TCKimlikDogrula
 {
 
     private function check_SoapClient($data)
     {
-        // $client = new SoapClient("https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL");
-        // try {
-        //     $result = $client->TCKimlikNoDogrula($data);
-        //     if ($result->TCKimlikNoDogrulaResult) {
-        //         return true;
-        //     } else {
-        //         return false;
-        //     }
-        // } catch (Exception $e) {
-        //     return $e->faultstring;
-        // }
+        $client = new \SoapClient("https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL");
+        try {
+            $result = $client->TCKimlikNoDogrula($data);
+            if ($result->TCKimlikNoDogrulaResult) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (\Exception $e) {
+            return $e->faultstring;
+        }
     }
 
     private function check_Normal($data)

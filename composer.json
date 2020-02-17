@@ -1,17 +1,18 @@
 {
     "name": "umitbilgin/tckimlikdogrula",
-    "description": "PHP ile TC Kimlik Numarasi Dogrulama",
-    "type": "package",
+    "description": "PHP ile TC Kimlik Dogrulama Kutuphanesi",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Umit Bilgin",
-            "email": "info@umitbilgin.com.tr"
+            "email": "umitbilgintr@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"umitbilgin\\tckimlikdogrula\\": "src/"}
+        "psr-4": {
+            "TCKimlikDogrula\\": "src/"
+        }
     },
     "require": {}
 }
